@@ -14,8 +14,19 @@ sayMyName();
 
 let texti = {
   title: "Titulli ma i miri",
-  firstParagraph: "Cka ka cka ska?"
+  firstParagraph: "Cka ka cka ska?",
+  ndrrojeTitullin: function (newTitle) {
+    document.getElementById('titulli').innerHTML = newTitle
+  },
+  ndrrojeParagrafin: function (newContent) {
+    document.getElementById('paragrafiPare').innerHTML = newContent
+  }
 }
 
-document.getElementById('titulli').innerHTML = texti.title
-document.getElementById('paragrafiPare').innerHTML = texti.firstParagraph
+function ndrrojeParagrafin() {
+  console.log("hi");
+}
+
+texti.ndrrojeParagrafin("test");
+texti.ndrrojeTitullin("Titulli ma i ri ne bote")
+
