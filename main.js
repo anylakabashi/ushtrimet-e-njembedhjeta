@@ -11,3 +11,11 @@ function sayMyName() {
   document.getElementById("pershendetje").innerHTML = text;
 }
 sayMyName();
+
+let texti = {
+  title: "Titulli ma i miri",
+  firstParagraph: "Cka ka cka ska?"
+}
+
+document.getElementById('titulli').innerHTML = texti.title
+document.getElementById('paragrafiPare').innerHTML = texti.firstParagraph
