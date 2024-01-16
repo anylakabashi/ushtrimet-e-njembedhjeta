@@ -22,11 +22,6 @@ let texti = {
     document.getElementById('paragrafiPare').innerHTML = newContent
   }
 }
-
-function ndrrojeParagrafin() {
-  console.log("hi");
-}
-
 texti.ndrrojeParagrafin("test");
 texti.ndrrojeTitullin("Titulli ma i ri ne bote")
 
